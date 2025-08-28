@@ -163,6 +163,7 @@ Which of the following statements are correct about consolidated billing in AWS 
 
 
 ---------------------GITHUB QUESTIONS BELOW-------------------------------------------------------------
+
 8. What does AWS Snowball provide? (Choose TWO)
     - A. Built-in computing capabilities that allow customers to process data locally.
     - B. A catalog of third-party software solutions that customers need to build solutions and run their businesses.
