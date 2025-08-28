@@ -314,8 +314,24 @@ Which AWS service will help achieve the company's need?
       Correct answer: E, B
     </details>
 
+33. Which of the following statements is INCORRECT about AWS Auto Scaling?
+- A. You can automatically register new instances to a load balancer
+- B. You can automatically remove unhealthy instances
+- C. You can scale out and add more Amazon Elastic Compute Cloud (Amazon EC2) instances to match an increase in demand as well as scale in and remove Amazon Elastic Compute Cloud (Amazon EC2) instances to match a reduced demand
+- D. You can automatically deploy AWS Shield when a DDoS attack is detected
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+    </details>
 
-
+34. Which of the following are examples of Horizontal Scalability (aka Elasticity)? (Select two)
+- A. Add a bigger CPU to a computer
+- B. Elastic Load Balancing (ELB)
+- C. Modify an EC2 instance type from t2.nano to u-12tb1.metal
+- D. Modify a Database instance to higher CPU and RAM
+- E. Read Replicas in Amazon Relational Database Service (Amazon RDS)
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B, E
+    </details>
 
     
 XX. 
