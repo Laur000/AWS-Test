@@ -309,7 +309,7 @@ Which AWS service will help achieve the company's need?
 - D. AWS Lambda functions, Amazon Simple Storage Service (Amazon S3)
 - E. Amazon Elastic Compute Cloud (Amazon EC2) instances, Amazon EC2 Auto Scaling groups
 <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: 
+      Correct answer: E, B
     </details>
 
 
