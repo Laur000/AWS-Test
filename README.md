@@ -294,10 +294,12 @@ Which AWS service will help achieve the company's need?
       Correct answer: D
     </details>
 31. A customer has created a VPC and a subnet within AWS Cloud. Which of the following statements is correct?
+
 - A. A subnet spans all of the Availability Zones (AZ) in the Region whereas an Amazon Virtual Private Cloud (Amazon VPC) spans only one Availability Zone (AZ) in the Region
 - B. Both the Amazon Virtual Private Cloud (Amazon VPC) and the subnet span all of the Availability Zones (AZ) in the Region
 - C. Both the Amazon Virtual Private Cloud (Amazon VPC) and the subnet span only one Availability Zone (AZ) in the Region
 - D. An Amazon Virtual Private Cloud (Amazon VPC) spans all of the Availability Zones (AZ) in the Region whereas a subnet spans only one Availability Zone (AZ) in the Region
+  
 <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
     </details>
