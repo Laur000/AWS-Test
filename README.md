@@ -276,6 +276,55 @@ Which AWS service will help achieve the company's need?
     </details>
 
 
+29. Which policy describes prohibited uses of the web services offered by Amazon Web Services?
+- A. AWS Applicable Use Policy
+- B. AWS Trusted Advisor
+- C. AWS Fair Use Policy
+- D. AWS Acceptable Use Policy
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+    </details>
+
+30. Which of the following statement is correct for a Security Group and a Network Access Control List (Network ACL)?
+- A. Security Group acts as a firewall at the subnet level whereas Network Access Control List (Network ACL) acts as a firewall at the instance level
+- B. Security Group acts as a firewall at the Availability Zone (AZ) level whereas Network Access Control List (Network ACL) acts as a firewall at the VPC level
+- C. Security Group acts as a firewall at the VPC level whereas Network Access Control List (Network ACL) acts as a firewall at the Availability Zone (AZ) level
+- D. Security Group acts as a firewall at the instance level whereas Network Access Control List (Network ACL) acts as a firewall at the subnet level
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+    </details>
+31. A customer has created a VPC and a subnet within AWS Cloud. Which of the following statements is correct?
+- A. A subnet spans all of the Availability Zones (AZ) in the Region whereas an Amazon Virtual Private Cloud (Amazon VPC) spans only one Availability Zone (AZ) in the Region
+- B. Both the Amazon Virtual Private Cloud (Amazon VPC) and the subnet span all of the Availability Zones (AZ) in the Region
+- C. Both the Amazon Virtual Private Cloud (Amazon VPC) and the subnet span only one Availability Zone (AZ) in the Region
+- D. An Amazon Virtual Private Cloud (Amazon VPC) spans all of the Availability Zones (AZ) in the Region whereas a subnet spans only one Availability Zone (AZ) in the Region
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+    </details>
+
+32. AWS Compute Optimizer delivers recommendations for which of the following AWS resources? (Select two)
+- A. Amazon Elastic Compute Cloud (Amazon EC2) instances, Amazon Elastic File System (Amazon EFS)
+- B. Amazon Elastic Block Store (Amazon EBS), AWS Lambda functions
+- C. Amazon Elastic File System (Amazon EFS), AWS Lambda functions
+- D. AWS Lambda functions, Amazon Simple Storage Service (Amazon S3)
+- E. Amazon Elastic Compute Cloud (Amazon EC2) instances, Amazon EC2 Auto Scaling groups
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: 
+    </details>
+
+
+
+
+    
+XX. 
+- A. 
+- B. 
+- C. 
+- D. 
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: 
+    </details>
+
 ---------------------GITHUB QUESTIONS BELOW-------------------------------------------------------------
 
 8. What does AWS Snowball provide? (Choose TWO)
