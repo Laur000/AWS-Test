@@ -1,5 +1,168 @@
 # AWS-Test
+---------------------UNDEMY QUESTIONS BELOW-------------------------------------------------------------
+1. Which of the following AWS storage services can be directly used with on-premises systems?
+- A. Amazon Elastic File System (Amazon EFS)
+- B. Amazon Elastic Block Store (Amazon EBS)
+- C. Amazon EC2 Instance Store
+- D. Amazon Simple Storage Service (Amazon S3)
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+    </details>
 
+2.Which AWS service can help you analyze your infrastructure to identify unattached or underutilized Amazon EBS Elastic Volumes?
+- A. Amazon Inspector
+- B. Amazon CloudWatch
+- C. AWS Config
+- D. AWS Trusted Advisor
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+    </details>
+
+3. Which of the following are the serverless computing services offered by AWS ? (Select two)
+- A. Amazon Elastic Compute Cloud (Amazon EC2)
+- B. AWS Elastic Beanstalk
+- C. AWS LightSail
+- D. AWS Fargate
+- E. AWS Lambda
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D, E
+    </details>
+
+4. Which benefit of Cloud Computing allows AWS to offer lower pay-as-you-go prices as usage from hundreds of thousands of customers is aggregated in the cloud?
+- A. Increased speed and agility
+- B. Go global in minutes
+- C. Massive economies of scale
+- D. Trade capital expense for variable expense
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+    </details>
+
+5. Bob and Susan each have an AWS account in AWS Organizations. Susan has five Reserved Instances (RIs) of the same type and Bob has none. During one particular hour, Susan uses three instances and Bob uses six for a total of nine instances on the organization's consolidated bill.
+Which of the following statements are correct about consolidated billing in AWS Organizations? (Select two)
+- A. Bob receives the cost-benefit from Susan's Reserved Instance (RI) only if he launches his instances in the same AWS Region where Susan purchased her Reserved Instances (RI)
+- B. Bob does not receive any cost-benefit since he hasn't purchased any Reserved Instance (RI). If his account has even one RI, then the cost-benefit from Susan's account is also added to his account
+- C. AWS bills three instances as Reserved Instances (RI), and the remaining six instances as regular instances
+- D. AWS bills five instances as Reserved Instances, and the remaining four instances as regular instances
+- E. Bob receives the cost-benefit from Susan's Reserved Instances (RI) only if he launches his instances in the same Availability Zone (AZ) where Susan purchased her Reserved Instances
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D, E
+    </details>
+
+6. Which of the following Amazon Simple Storage Service (Amazon S3) storage classes has NO constraint of a minimum storage duration charge for objects?
+- A. Amazon S3 Standard-Infrequent Access (S3 Standard-IA)
+- B. Amazon S3 Standard
+- C. Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)
+- D. Amazon S3 Glacier Flexible Retrieval
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+    </details>
+
+7. Which of the following is correct regarding the Amazon Relational Database Service (Amazon RDS) service?
+- A. You can use both read replicas and multi-AZ deployment having single standby for improved read performance
+- B. You can use both read replicas and multi-AZ deployment for disaster recovery
+- C. You can use read replicas for disaster recovery only and multi-AZ deployment for improved read performance only
+- D. You can use read replicas for improved read performance only and multi-AZ deployment for disaster recovery only
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+    </details>
+
+8.Which of the following entities can be used to connect to an Amazon Elastic Compute Cloud (Amazon EC2) server from a Mac OS, Windows or Linux based computer via a browser-based client?
+- A. Putty
+- B. Amazon EC2 Instance Connect
+- C. AWS Direct Connect
+- D. SSH
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+    </details>
+
+9.Which of the following types are free under the Amazon Simple Storage Service (Amazon S3) pricing model? (Select two)
+- A. Data transferred out to an Amazon Elastic Compute Cloud (Amazon EC2) instance, when the instance is in the same AWS Region as the S3 bucket
+- B. Data storage fee for objects stored in S3 Glacier
+- C. Data storage fee for objects stored in S3 Standard
+- D. Data transferred out to an Amazon Elastic Compute Cloud (Amazon EC2) instance in any AWS Region
+- E. Data transferred in from the internet
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A, E
+    </details>
+
+10. Which of the following entities should be used for an Amazon Elastic Compute Cloud (Amazon EC2) Instance to access a DynamoDB table?
+- A. IAM Role
+- B. Amazon Cognito
+- C. AWS IAM user access keys
+- D. AWS Key Management Service (KMS)
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+    </details>
+
+11. Which of the following statements are CORRECT regarding AWS Global Accelerator? (Select two)
+- A. AWS Global Accelerator is a good fit for non-HTTP use cases
+- B. AWS Global Accelerator uses the AWS global network and its edge locations. But the edge locations used by Global Accelerator are different from Amazon CloudFront edge locations
+- C. AWS Global Accelerator provides static IP addresses that act as a fixed entry point to your applications
+- D. AWS Global Accelerator cannot be configured with an Elastic Load Balancer (ELB)
+- E. AWS Global Accelerator can be used to host static websites
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A, C
+    </details>
+
+
+12. Which AWS entity enables you to privately connect your Amazon Virtual Private Cloud (Amazon VPC) to an Amazon Simple Queue Service (Amazon SQS) queue?
+- A. VPC Gateway Endpoint
+- B. Internet Gateway
+- C. VPC Interface Endpoint
+- D. AWS Direct Connect
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+    </details>
+
+13.A multi-national organization has a separate virtual private cloud (VPC) for each of its business units on the AWS Cloud. The organization also wants to connect its on-premises data center with the different virtual private clouds (VPC) for better organization-wide collaboration. Which AWS services can be combined to build the MOST efficient solution for this use-case? (Select two)
+- A. VPC peering connection
+- B. Internet Gateway
+- C. AWS Storage Gateway
+- D. AWS Transit Gateway
+- E. AWS Direct Connect
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D,E
+    </details>
+  
+14.As per the AWS Shared Responsibility Model, which of the following is a responsibility of AWS from a security and compliance point of view?
+- A. Patching guest OS and applications
+- B. Identity and Access Management
+- C. Service and Communications Protection
+- D. Patching networking infrastructure
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+    </details>
+
+15.An e-commerce company would like to receive alerts when the Amazon EC2 Reserved Instances (RI) utilization drops below a certain threshold. Which AWS service can be used to address this use-case?
+- A. AWS Budgets
+- B. AWS Trusted Advisor
+- C. AWS Systems Manager
+- D. AWS Cost Explorer
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+    </details>
+
+16.Which AWS service can be used to set up billing alarms to monitor estimated charges on your AWS account?
+- A. AWS Cost Explorer
+- B. Amazon CloudWatch
+- C. AWS Organization
+- D. AWS CloudTrail
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+    </details>
+
+
+
+- A. 
+- B. 
+- C. 
+- D. 
+
+
+---------------------GITHUB QUESTIONS BELOW-------------------------------------------------------------
 8. What does AWS Snowball provide? (Choose TWO)
     - A. Built-in computing capabilities that allow customers to process data locally.
     - B. A catalog of third-party software solutions that customers need to build solutions and run their businesses.
