@@ -154,12 +154,126 @@ Which of the following statements are correct about consolidated billing in AWS 
       Correct answer: B
     </details>
 
+17. Historically, IT departments had to over-provision for peak demand. IT professionals may bring this legacy mindset to the table when they build their cloud infrastructure leading to over-provisioned resources and unnecessary costs. Right-sizing of resources is necessary to reduce infrastructure costs while still using cloud functionality optimally.
+Which feature of the AWS Cloud refers to right-sizing the resources?
+- A. Resiliency
+- B. Horizontal scaling
+- C. Elasticity
+- D. Reliability
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+    </details>
 
 
+18. A company is looking for ways to make its desktop applications available to the employees from browsers on their devices/laptops. Which AWS service will help achieve this requirement without having to procure servers or maintain infrastructure?
+- A. Amazon AppStream 2.0
+- B. Amazon WorkSpaces
+- C. AWS Outposts
+- D. AWS Snowball  
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+    </details>
+
+19. AWS Web Application Firewall (AWS WAF) can be deployed on which of the following services?
+- A. Amazon CloudFront, Application Load Balancer, Amazon API Gateway, AWS AppSync
+- B. AWS AppSync, Amazon CloudFront, Application Load Balancer, Amazon Elastic Compute Cloud (Amazon EC2)
+- C. Amazon CloudFront, Amazon Elastic Compute Cloud (Amazon EC2), Amazon API Gateway, Application Load Balancer
+- D. Application Load Balancer, Amazon Elastic Compute Cloud (Amazon EC2), Amazon API Gateway
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A - **not EC2**
+    </details>
+
+20. As a Cloud Practitioner, which of the following credentials would you recommend for signing in to the AWS Management Console to meet security best practices? (Select two)
+- A. Access Key ID
+- B. Secret Access Key
+- C. IAM Username and password
+- D. Multi Factor Authentication (MFA)
+- E. X.509 certificate
+
+ <details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C, D
+    </details>
+
+21. Which of the following statements are correct regarding the health monitoring and reporting capabilities supported by AWS Elastic Beanstalk? (Select two)
+- A. With basic health reporting, the AWS Elastic Beanstalk service does not publish any metrics to Amazon CloudWatch
+- B. The AWS Elastic Beanstalk health monitoring can determine that the environment's Auto Scaling group is available and has a minimum of at least one instance
+- C. The basic health reporting system that provides information about the health of instances in an AWS Elastic Beanstalk environment does not use health checks performed by Elastic Load Balancing (ELB)
+- D. AWS Elastic Beanstalk provides only basic health reporting system; Combined with Elastic Load Balancing (ELB), they provide advanced health check features
+- E. In a single instance environment, AWS Elastic Beanstalk determines the instance's health by monitoring the Elastic Load Balancing (ELB) health settings
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A, B
+    </details>
+    
+22. Which of the following statements are true about AWS Elastic Beanstalk? (Select two)
+- A. AWS Elastic Beanstalk automates the details of capacity provisioning, load balancing, and application deployment, creating an environment that runs a version of your application. However, auto-scaling functionality cannot be automated using AWS Elastic Beanstalk
+- B. With AWS Elastic Beanstalk, you can quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications
+- C. AWS Elastic Beanstalk supports Java, .NET, PHP, but does not support Docker web applications
+- D. There is no additional charge for AWS Elastic Beanstalk. You pay only for the underlying AWS resources that your application consumes
+- E. AWS Elastic Beanstalk supports web applications built on different languages. But, AWS Elastic Beanstalk cannot be used for deploying non-web applications
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B,D
+    </details>
+
+23. 
 - A. 
 - B. 
 - C. 
-- D. 
+- D.
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: 
+    </details>
+
+24. A company is looking at a service/tool to automate and minimize the time spent on keeping the server images up-to-date. These server images are used by Amazon Elastic Compute Cloud (Amazon EC2) instances as well as the on-premises systems.
+Which AWS service will help achieve the company's need?
+- A. AWS CloudFormation templates
+- B. AWS Systems Manager (Amazon Simple Systems Manager (SSM))
+- C. Amazon EC2 Amazon Machine Image (AMI)
+- D. Amazon EC2 Image Builder
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+    </details>
+
+25. Which of the following points have to be considered when choosing an AWS Region for a service? (Select two)
+- A. The AWS Region chosen should have all its Availability Zones (AZ) within 100 Kms radius, to keep latency low for hosted applications
+- B. The AWS Region with high availability index should be considered for your business
+- C. AWS Region chosen should be geographically closer to the user base that utilizes the hosted AWS services
+- D. Compliance and Data Residency guidelines of the AWS Region should match your business requirements
+- E. The AWS Region should have 5G networks, to seamlessly access the breadth of AWS services in the region
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C, D
+    </details>
+
+26. Which of the following statements are true about AWS Shared Responsibility Model? (Select two)
+- A. AWS trains AWS employees, but a customer must train their own employees
+- B. AWS is responsible for patching and fixing flaws within the infrastructure, but customers are responsible for patching their guest operating system and applications
+- C. AWS maintains the configuration of its infrastructure devices and is responsible for configuring the guest operating systems, databases, and applications
+- D. For abstracted services, such as Amazon S3, AWS operates the infrastructure layer, the operating system, platforms, encryption options, and appropriate permissions for accessing the S3 resources
+- E. Amazon Elastic Compute Cloud (Amazon EC2) is categorized as Infrastructure as a Service (IaaS) and hence AWS will perform all of the necessary security configuration and management tasks
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A, B
+    </details>
+
+27. A company is moving its on-premises application to AWS Cloud. The application uses in-memory caches for running custom workloads. Which Amazon Elastic Compute Cloud (Amazon EC2) instance type is the right choice for the given requirement?
+- A. Accelerated computing instance types
+- B. Storage Optimized instance types
+- C. Memory Optimized instance types
+- D. Compute Optimized instance types
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+    </details>
+    
+
+28. An organization in the US plans to launch a new product line and needs additional IT infrastructure to support the workload. They want a solution that enables rapid deployment of resources and minimizes setup time. Which advantages of cloud computing can help the organization achieve this goal? (Select two)
+- A. Increase speed and agility
+- B. Enable automatic scaling of resources based on demand
+- C. Trade fixed expense for variable expense
+- D. Go global in minutes
+- E. Benefit from massive economies of scale
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A, B
+    </details>
 
 
 ---------------------GITHUB QUESTIONS BELOW-------------------------------------------------------------
