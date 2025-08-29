@@ -333,6 +333,52 @@ Which AWS service will help achieve the company's need?
       Correct answer: B, E
     </details>
 
+35. A web application stores all of its data on Amazon S3 buckets. A client has mandated that data be encrypted before sending it to Amazon S3.
+Which of the following is the right technique for encrypting data as needed by the customer?
+- A. Enable client-side encryption using AWS encryption SDK
+- B. Enable server-side encryption with Amazon S3 Managed Keys (SSE-S3)
+- C. Encryption is enabled by default for all the objects written to Amazon S3. Additional configuration is not required
+- D. Enable server-side encryption with AWS Key Management Service (AWS KMS) keys (SSE-KMS)
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+    </details>
+
+36. A startup wants to migrate its data and applications from the on-premises data center to AWS Cloud. Which of the following options can be used by the startup to help with this migration? (Select two)
+- A. Utilize AWS Partner Network (APN) to build a custom solution for this infrastructure migration
+- B. Raise a support ticket with AWS Support for further assistance
+- C. Consult moderators on AWS Developer Forums
+- D. Leverage AWS Professional Services to accelerate the infrastructure migration
+- E. Use AWS Trusted Advisor to automate the infrastructure migration
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A, D
+    </details>
+
+37. Which of the following statements are CORRECT regarding the AWS VPC service? (Select two)
+- A. A network access control list (network ACL) can have allow rules only
+- B. A Security Group can have allow rules only
+- C. A Network Address Translation instance (NAT instance) is managed by AWS
+- D. A Network Address Translation gateway (NAT gateway) is managed by AWS
+- E. A Security Group can have both allow and deny rules
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B, D
+    </details>
+
+
+
+
+38. An IT company is planning to migrate from an on-premises environment to AWS Cloud. Which of the following expense areas would result in cost savings when the company moves to AWS Cloud? (Select two)
+- A. Project manager salary
+- B. Data center hardware infrastructure expenditure
+- C. Developer Salary
+- D. SaaS application license fee
+- E. Data center physical security expenditure
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B, E
+    </details>
+
+
+
+
     
 XX. 
 - A. 
