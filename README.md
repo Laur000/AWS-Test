@@ -376,6 +376,24 @@ Which of the following is the right technique for encrypting data as needed by t
       Correct answer: B, E
     </details>
 
+39. An e-commerce company has deployed an RDS database in a single Availability Zone (AZ). The engineering team wants to ensure that in case of an AZ outage, the database should continue working on the same endpoint without any manual administrative intervention. Which of the following solutions can address this use-case?
+- A. Configure the database in RDS read replica mode with automatic failover to the standby
+- B. Configure the database in RDS Multi-AZ deployment with automatic failover to the standby
+- C. Provision the database via AWS CloudFormation
+- D. Deploy the database via AWS Elastic Beanstalk
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+    </details>
+
+40. According to the AWS Cloud Adoption Framework (AWS CAF), what are two tasks that a company should perform when planning to migrate to the AWS Cloud and aiming to become more responsive to customer inquiries and feedback as part of their organizational transformation? (Select two)
+- A. Create new analytical insights with existing products and services
+- B. Leverage legacy infrastructure for cost efficiencies
+- C. Leverage agile methods to rapidly iterate and evolve
+- D. Organize your teams around bureaucratic design principles
+- E. Organize your teams around products and value streams
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C, E
+    </details>
 
 
 
