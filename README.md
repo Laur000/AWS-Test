@@ -396,8 +396,102 @@ Which of the following is the right technique for encrypting data as needed by t
     </details>
 
 
+41. An IT company has deployed a static website on Amazon Simple Storage Service (Amazon S3), but the website is still inaccessible. As a Cloud Practioner, which of the following solutions would you suggest to address this issue?
+- A. Enable Amazon S3 versioning
+- B. Enable Amazon S3 replication
+- C. Fix the Amazon S3 bucket policy
+- D. Disable Amazon S3 encryption
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+    </details>
 
-    
+
+42. Which of the following statements are true about Cost Allocation Tags in AWS Billing? (Select two)
+- A. Only user-defined tags need to be activated before they can appear in Cost Explorer or on a cost allocation report
+- B. You must activate both AWS generated tags and user-defined tags separately before they can appear in Cost Explorer or on a cost allocation report
+- C. Tags help in organizing resources and are a mandatory configuration item to run reports
+- D. For each resource, each tag key must be unique, and each tag key can have only one value
+- E. For each resource, each tag key must be unique, but can have multiple values
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B, D
+    </details>
+
+
+43. An AWS user is trying to launch an Amazon Elastic Compute Cloud (Amazon EC2) instance in a given region. What is the region-specific constraint that the Amazon Machine Image (AMI) must meet so that it can be used for this Amazon Elastic Compute Cloud (Amazon EC2) instance?
+- A. You must use an Amazon Machine Image (AMI) from the same region as that of the Amazon EC2 instance. The region of the Amazon Machine Image (AMI) has no bearing on the performance of the Amazon EC2 instance
+- B. You should use an Amazon Machine Image (AMI) from the same region, as it improves the performance of the Amazon EC2 instance
+- C. An Amazon Machine Image (AMI) is a global entity, so the region is not applicable
+- D. You can use an Amazon Machine Image (AMI) from a different region, but it degrades the performance of the Amazon EC2 instance
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+    </details>
+
+
+44. Which of the following AWS services have data encryption automatically enabled? (Select two)?
+- A. Amazon Simple Storage Service (Amazon S3)
+- B. Amazon Redshift
+- C. Amazon Elastic File System (Amazon EFS)
+- D. Amazon Elastic Block Store (Amazon EBS)
+- E. AWS Storage Gateway
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer:  A, E
+    </details>
+
+45. A startup runs its proprietary application on docker containers. As a Cloud Practitioner, which AWS service would you recommend so that the startup can run containers and still have access to the underlying servers?
+- A. Amazon Fargate
+- B. Amazon Elastic Container Service (Amazon ECS)
+- C. Amazon Elastic Container Registry (Amazon ECR)
+- D. AWS Lambda
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+    </details>
+
+46. Which of the following AWS Identity and Access Management (AWS IAM) Security Tools allows you to review permissions granted to an IAM user?
+- A. Multi-Factor Authentication (MFA)
+- B. IAM credentials report
+- C. IAM Policy
+- D. AWS Identity and Access Management (IAM) access advisor
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+    </details>
+
+47. A corporation would like to simplify access management to multiple AWS accounts as well as facilitate AWS Single Sign-On (AWS SSO) access to its AWS accounts. As a Cloud Practitioner, which AWS service would you use for this task?
+- A. AWS Identity and Access Management (AWS IAM)
+- B. AWS IAM Identity Center
+- C. AWS Command Line Interface (CLI)
+- D. AWS Cognito
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+    </details>
+
+48. Which types of monitoring can be provided by Amazon CloudWatch? (Select TWO)
+- A. API access
+- B. Application performance
+- C. Performance and availability of AWS services
+- D. Resource utilization
+- E. Account management
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B, D
+    </details>
+
+49. A company would like to reserve Amazon Elastic Compute Cloud (Amazon EC2) compute capacity for three years to reduce costs. The company also plans to increase their workloads during this period. As a Cloud Practitioner, which Amazon Elastic Compute Cloud (Amazon EC2) reserved instance (RI) type would you recommend?
+- A. Standard reserved instance (RI)
+- B. Adaptable reserved instances (RI)
+- C. Convertible reserved instances (RI)
+- D. Scheduled reserved instances (RI)
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+    </details>
+50. A company would like to move its infrastructure to AWS Cloud. Which of the following should be included in the Total Cost of Ownership (TCO) estimate? (Select TWO) 
+- A. Power/Cooling
+- B. Application advertising
+- C. Server Administration
+- D. Electronic equipment at office
+- E. Number of end users
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A, C
+    </details>
+
 XX. 
 - A. 
 - B. 
