@@ -364,8 +364,6 @@ Which of the following is the right technique for encrypting data as needed by t
     </details>
 
 
-
-
 38. An IT company is planning to migrate from an on-premises environment to AWS Cloud. Which of the following expense areas would result in cost savings when the company moves to AWS Cloud? (Select two)
 - A. Project manager salary
 - B. Data center hardware infrastructure expenditure
@@ -482,12 +480,14 @@ Which of the following is the right technique for encrypting data as needed by t
 <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: C
     </details>
-50. A company would like to move its infrastructure to AWS Cloud. Which of the following should be included in the Total Cost of Ownership (TCO) estimate? (Select TWO) 
+50. A company would like to move its infrastructure to AWS Cloud. Which of the following should be included in the Total Cost of Ownership (TCO) estimate? (Select TWO)
+
 - A. Power/Cooling
 - B. Application advertising
 - C. Server Administration
 - D. Electronic equipment at office
 - E. Number of end users
+
 <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, C
     </details>
