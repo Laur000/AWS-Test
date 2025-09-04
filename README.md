@@ -7,6 +7,7 @@
 - D. Amazon Simple Storage Service (Amazon S3)
 <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A
+      Amazon Elastic File System (Amazon EFS) provides a simple, scalable, fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources.
     </details>
 
 2.Which AWS service can help you analyze your infrastructure to identify unattached or underutilized Amazon EBS Elastic Volumes?
@@ -491,6 +492,27 @@ Which of the following is the right technique for encrypting data as needed by t
 <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: A, C
     </details>
+51. A cargo shipping company runs its server fleet on Amazon Elastic Compute Cloud (Amazon EC2) instances. Some of these instances host the CRM (Customer Relationship Management) applications that need to be accessible 24*7. These applications are not mission-critical. In case of a disaster, these applications can be managed on a lesser number of instances for some time.
+
+Which disaster recovery strategy is well-suited as well as cost-effective for this requirement? 
+- A. Pilot Light strategy
+- B. Backup & Restore strategy
+- C. Warm Standby strategy
+- D. Multi-site active-active strategy
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C 
+      When selecting your disaster recovery (DR) strategy, you must weigh the benefits of lower RTO (recovery time objective) and RPO (recovery point objective) vs the costs of implementing and operating a strategy. The pilot light and warm standby strategies both offer a good balance of benefits and cost.
+    </details>
+
+52.Which of the following can you use to run a bootstrap script while launching an Amazon Elastic Compute Cloud (Amazon EC2) instance?
+- A. Amazon EC2 instance configuration data
+- B. Amazon EC2 instance metadata
+- C. Amazon EC2 instance AMI data
+- D. Amazon EC2 instance user data
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+    </details>
+
 
 XX. 
 - A. 
