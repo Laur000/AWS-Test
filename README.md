@@ -217,13 +217,14 @@ Which feature of the AWS Cloud refers to right-sizing the resources?
       Correct answer: B,D
     </details>
 
-23. 
-- A. 
-- B. 
-- C. 
-- D.
+23. Which of the following statements are true about AWS Regions and Availability Zones (AZ)? (Select two)
+- A. All traffic between Availability Zones (AZ) is encrypted
+- B. Each AWS Region consists of multiple, isolated, and physically separate Availability Zones (AZ) within a geographic area
+- C. Traffic between Availability Zones (AZ) is not encrypted by default, but can be configured from AWS console
+- D. AWS calls each group of logical data centers as AWS Regions
+- E. An Availability Zone (AZ) is a physical location where AWS clusters the data centers
 <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: 
+      Correct answer: A, B
     </details>
 
 24. A company is looking at a service/tool to automate and minimize the time spent on keeping the server images up-to-date. These server images are used by Amazon Elastic Compute Cloud (Amazon EC2) instances as well as the on-premises systems.
