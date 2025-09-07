@@ -515,7 +515,7 @@ Which disaster recovery strategy is well-suited as well as cost-effective for th
     </details>
 
 
-XX. 
+XX. A multi-national company has just moved its infrastructure from its on-premises data center to AWS Cloud. As part of the shared responsibility model, AWS is responsible for which of the following?
 - A. 
 - B. 
 - C. 
