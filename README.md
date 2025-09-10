@@ -613,7 +613,112 @@ D. Amazon Redshift
 Correct answer: D
 </details>
 
+60.Which AWS service can be used to store, manage, and deploy Docker container images?
 
+A. AWS Lambda
+
+B. Amazon Elastic Compute Cloud (Amazon EC2)
+
+C. Amazon Elastic Container Service (Amazon ECS)
+
+D. Amazon Elastic Container Registry (Amazon ECR)
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: D
+</details>
+
+61.Which of the following AWS services can be used to prevent Distributed Denial-of-Service (DDoS) attack? (Select three)
+
+A. AWS CloudHSM
+
+B. AWS Web Application Firewall (AWS WAF)
+
+C. AWS Shield
+
+D. Amazon Inspector
+
+E. AWS Trusted Advisor
+
+F. Amazon CloudFront with Amazon Route 53
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: B, C, F
+</details>
+
+62.A social media company wants to protect its web application from common web exploits such as SQL injection and cross-site scripting. Which of the following AWS services can be used to address this use-case?
+
+A. Amazon Inspector
+
+B. AWS Web Application Firewall (AWS WAF)
+
+C. AWS CloudWatch
+
+D. Amazon GuardDuty
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: B
+</details>
+
+63.A gaming company is looking at a technology/service that can deliver a consistent low-latency gameplay to ensure a great user experience for end-users in various locations.
+Which AWS technology/service will provide the necessary low-latency access to the end-users?
+
+A. AWS Edge Locations
+
+B. AWS Direct Connect
+
+C. AWS Local Zones
+
+D. AWS Wavelength
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: A
+</details>
+
+64.As per the AWS Shared Responsibility Model, which of the following is a responsibility of the customer from a security and compliance point of view?
+
+A. Availability Zone (AZ) infrastructure management
+
+B. Patching/fixing flaws within the AWS infrastructure
+
+C. Managing patches of the guest operating system on Amazon Elastic Compute Cloud (Amazon EC2)
+
+D. Configuration management for AWS global infrastructure
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: C
+</details>
+
+65.Which of the following options can be used to access and manage all AWS services (Select three)?
+
+A. AWS Software Development Kit (SDK)
+
+B. AWS Management Console
+
+C. AWS Systems Manager
+
+D. Amazon API Gateway
+
+E. AWS Command Line Interface (AWS CLI)
+
+F. AWS Secrets Manager
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: A, B, E
+</details>
+
+66.What is the primary benefit of deploying an Amazon RDS Multi-AZ database with one standby?
+
+A. Amazon RDS Multi-AZ improves database performance for read-heavy workloads
+
+B. Amazon RDS Multi-AZ enhances database availability
+
+C. Amazon RDS Multi-AZ reduces database usage costs
+
+D. Amazon RDS Multi-AZ protects the database from a regional failure
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: B
+</details>
 
 
 XX. A multi-national company has just moved its infrastructure from its on-premises data center to AWS Cloud. As part of the shared responsibility model, AWS is responsible for which of the following?
