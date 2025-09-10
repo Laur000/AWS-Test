@@ -513,6 +513,107 @@ Which disaster recovery strategy is well-suited as well as cost-effective for th
 <details markdown=1><summary markdown='span'>Answer</summary>
       Correct answer: D
     </details>
+53.A multi-national company has just moved its infrastructure from its on-premises data center to AWS Cloud. As part of the shared responsibility model, AWS is responsible for which of the following?
+A. Patching guest OS
+
+B. Configuring customer applications
+
+C. Service and Communications Protection or Zone Security
+
+D. Physical and Environmental controls
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: D
+</details>
+
+54.Which tool/service will help you access AWS services using programming language-specific APIs?
+
+A. AWS Command Line Interface (CLI)
+
+B. AWS Management Console
+
+C. Integrated Development Environments (IDE)
+
+D. AWS Software Developer Kit (SDK)
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: D
+</details>
+
+55.According to the AWS Shared Responsibility Model, which of the following are responsibilities of AWS? (Select two)
+
+A. Replacing faulty hardware of Amazon EC2 instances
+
+B. Enabling Multi Factor Authentication on AWS accounts in your organization
+
+C. Operating the infrastructure layer, the operating system and the platform for the Amazon S3 service
+
+D. Creating IAM role for accessing Amazon EC2 instances
+
+E. Creating S3 bucket policies for appropriate user access
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: A, C
+</details>
+
+56.A multi-national corporation wants to get expert professional advice on migrating to AWS and managing their applications on AWS Cloud. Which of the following entities would you recommend for this engagement?
+
+A. APN Technology Partner
+
+B. Concierge Support Team
+
+C. APN Consulting Partner
+
+D. AWS Trusted Advisor
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: C
+</details>
+
+57.Which of the following is a recommended way to provide programmatic access to AWS resources?
+
+A. Use IAM user group to access AWS resources programmatically
+
+B. Use AWS Multi-Factor Authentication (AWS MFA) to access AWS resources programmatically
+
+C. Create a new IAM user and share the username and password
+
+D. Use Access Key ID and Secret Access Key to access AWS resources programmatically
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: D
+</details>
+
+58.A company wants to improve the resiliency of its flagship application so it wants to move from its traditional database system to a managed AWS NoSQL database service to support active-active configuration in both the East and West US AWS regions. The active-active configuration with cross-region support is the prime criteria for any database solution that the company considers.
+Which AWS database service is the right fit for this requirement?
+
+A. Amazon DynamoDB with global tables
+
+B. Amazon DynamoDB with DynamoDB Accelerator
+
+C. Amazon Relational Database Service (Amazon RDS) for MYSQL
+
+D. Amazon Aurora with multi-master clusters
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: A
+</details>
+
+59.Which of the following is an AWS database service?
+
+A. AWS Database Migration Service (AWS DMS)
+
+B. AWS Storage Gateway
+
+C. AWS Glue
+
+D. Amazon Redshift
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: D
+</details>
+
+
 
 
 XX. A multi-national company has just moved its infrastructure from its on-premises data center to AWS Cloud. As part of the shared responsibility model, AWS is responsible for which of the following?
