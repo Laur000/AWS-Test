@@ -720,6 +720,369 @@ D. Amazon RDS Multi-AZ protects the database from a regional failure
 Correct answer: B
 </details>
 
+67.An AWS hardware failure has impacted one of your Amazon Elastic Block Store (Amazon EBS) volumes. Which AWS service will alert you of the affected resources and provide a remedial action?
+
+A. AWS Health Dashboard – Your account health
+
+B. AWS Trusted Advisor
+
+C. Amazon GuardDuty
+
+D. AWS Config
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: A
+</details>
+
+68.An IT company is on a cost-optimization spree and wants to identify all Amazon Elastic Compute Cloud (Amazon EC2) instances that are under-utilized. Which AWS services can be used off-the-shelf to address this use-case without needing any manual configurations? (Select two)
+
+A. AWS Cost & Usage Report (AWS CUR)
+
+B. Amazon CloudWatch
+
+C. AWS Cost Explorer
+
+D. AWS Budgets
+
+E. AWS Trusted Advisor
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: C, E
+</details>
+
+69.An IT company has deployed a static website on Amazon Simple Storage Service (Amazon S3), but the website is still inaccessible. As a Cloud Practioner, which of the following solutions would you suggest to address this issue?
+
+A. Disable Amazon S3 encryption
+
+B. Enable Amazon S3 versioning
+
+C. Enable Amazon S3 replication
+
+D. Fix the Amazon S3 bucket policy
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: D
+</details>
+
+70.A customer is running a comparative study of pricing models of Amazon EFS and Amazon Elastic Block Store (Amazon EBS) that are used with the Amazon EC2 instances that host the application. Which of the following statements are correct regarding this use-case? (Select two)
+
+A. Amazon Elastic Compute Cloud (Amazon EC2) data transfer charges will apply for all Amazon Elastic Block Store (Amazon EBS) direct APIs for Snapshots
+
+B. Amazon Elastic Block Store (Amazon EBS) Snapshot storage pricing is based on the amount of space your data consumes in Amazon Elastic Block Store (Amazon EBS)
+
+C. Amazon Elastic Block Store (Amazon EBS) Snapshots are stored incrementally, which means you are billed only for the changed blocks stored
+
+D. You will pay a fee each time you read from or write data stored on the Amazon Elastic File System (Amazon EFS) - Infrequent Access storage class
+
+E. With AWS Backup, you pay only for the amount of Amazon Elastic File System (Amazon EFS) backup storage you use in a month, you need not pay for restoring this data
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: B, C
+</details>
+
+71.Which of the following statements are CORRECT about the AWS Auto Scaling group? (Select two)
+
+A. Auto Scaling group scales out and adds more number of Amazon EC2 instances to match an increase in demand
+
+B. Auto Scaling group scales in and reduces the number of Amazon EC2 instances to match a decrease in demand
+
+C. Auto Scaling group scales down and downgrades to a less powerful Amazon EC2 instance to match a decrease in demand
+
+D. Auto Scaling group scales up and upgrades to a more powerful Amazon EC2 instance to match an increase in demand
+
+E. Auto Scaling group scales down and reduces the number of Amazon EC2 instances to match a decrease in demand
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: A, B
+</details>
+
+72.What is the primary benefit of deploying an Amazon Relational Database Service (Amazon RDS) database in a Read Replica configuration?
+
+A. Read Replica reduces database usage costs
+
+B. Read Replica enhances database availability
+
+C. Read Replica protects the database from a regional failure
+
+D. Read Replica improves database scalability
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: D
+</details>
+
+73.An organization maintains separate Amazon Virtual Private Clouds (Amazon VPC) for each of its departments. With expanding business, the organization now wants to connect all Amazon Virtual Private Clouds (Amazon VPC) for better departmental collaboration. Which AWS service will help the organization tackle the issue effectively?
+
+A. AWS Direct Connect
+
+B. VPC peering connection
+
+C. AWS Transit Gateway
+
+D. AWS Site-to-Site VPN
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: C
+</details>
+
+74.Which of the following AWS services specialize in data migration from on-premises to AWS Cloud? (Select two)
+
+A. AWS Direct Connect
+
+B. AWS Database Migration Service (AWS DMS)
+
+C. AWS Site-to-Site VPN
+
+D. AWS Snowball
+
+E. AWS Transit Gateway
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: B, D
+</details>
+
+75.Which Amazon Route 53 routing policy would you use when you want to route your traffic in an active-passive configuration?
+
+A. Simple routing
+
+B. Latency-based routing
+
+C. Weighted routing
+
+D. Failover routing
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: D
+</details>
+
+76.A company has a static website hosted on an Amazon Simple Storage Service (Amazon S3) bucket in an AWS Region in Asia. Although most of its users are in Asia, now it wants to drive growth globally. How can it improve the global performance of its static website?
+
+A. Use AWS Web Application Firewall (AWS WAF) to improve the performance of your website
+
+B. Use Amazon S3 Transfer Acceleration (Amazon S3TA) to improve the performance of your website
+
+C. Use Amazon CloudFront to improve the performance of your website
+
+D. Use Amazon CloudFormation to improve the performance of your website
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: C
+</details>
+
+77.Which of the following is the best way to protect your data from accidental deletion on Amazon S3?
+
+A. Amazon S3 Versioning
+
+B. Amazon S3 lifecycle configuration
+
+C. Amazon S3 storage classes
+
+D. Amazon S3 Transfer Acceleration (Amazon S3TA)
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: A
+</details>
+
+78.A startup runs its proprietary application on docker containers. As a Cloud Practitioner, which AWS service would you recommend so that the startup can run containers and still have access to the underlying servers?
+
+A. AWS Fargate
+
+B. Amazon Elastic Container Service (Amazon ECS)
+
+C. Amazon Elastic Container Registry (Amazon ECR)
+
+D. AWS Lambda
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+Correct answer: B
+</details>
+
+79.Which of the following are the best practices when using AWS Organizations? (Select TWO)
+
+A. Restrict account privileges using Service Control Policies (SCP)
+
+B. Disable AWS CloudTrail on several accounts
+
+C. Do not use AWS Organizations to automate AWS account creation
+
+D. Never use tags for billing
+
+E. Create AWS accounts per department
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A, E
+    </details>
+
+80.Adding more CPU/RAM to an Amazon Elastic Compute Cloud (Amazon EC2) instance represents which of the following?
+
+A. Horizontal scaling
+
+B. Vertical scaling
+
+C. Loose coupling
+
+D. Managing increasing volumes of data
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+    </details>
+
+81.An organization would like to copy data across different Availability Zones (AZs) using Amazon EBS snapshots. Where are Amazon EBS snapshots stored in the AWS Cloud?
+
+A. Amazon Elastic Compute Cloud (Amazon EC2)
+
+B. Amazon Elastic File System (Amazon EFS)
+
+C. Amazon Relational Database Service (Amazon RDS)
+
+D. Amazon Simple Storage Service (Amazon S3)
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+    </details>
+
+82.A company would like to move its infrastructure to AWS Cloud. Which of the following should be included in the Total Cost of Ownership (TCO) estimate? (Select TWO)
+
+A. Number of end-users
+
+B. Power/Cooling
+
+C. Application advertising
+
+D. Electronic equipment at office
+
+E. Server administration
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B, E
+    </details>
+
+83.A media company wants to enable customized content suggestions for the users of its movie streaming platform. Which AWS service can provide these personalized recommendations based on historic data?
+
+A. Amazon Customize
+
+B. Amazon SageMaker
+
+C. Amazon Personalize
+
+D. Amazon Comprehend
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+    </details>
+
+84.Which of the following options is NOT a feature of Amazon Inspector?
+
+A. Automate security assessments
+
+B. Track configuration changes
+
+C. Analyze against unintended network accessibility
+
+D. Inspect running operating systems (OS) against known vulnerabilities
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+    </details>
+
+85.A Cloud Practitioner would like to get operational insights of its resources to quickly identify any issues that might impact applications using those resources. Which AWS service can help with this task?
+
+A. AWS Systems Manager
+
+B. Amazon Inspector
+
+C. AWS Health Dashboard - Your Account Health
+
+D. AWS Trusted Advisor
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+    </details>
+
+86.A corporation would like to simplify access management to multiple AWS accounts as well as facilitate AWS Single Sign-On (AWS SSO) access to its AWS accounts. As a Cloud Practitioner, which AWS service would you use for this task?
+
+A. AWS Identity and Access Management (AWS IAM)
+
+B. AWS Command Line Interface (CLI)
+
+C. AWS Cognito
+
+D. AWS IAM Identity Center
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: D
+    </details>
+
+87.According to the AWS Shared Responsibility Model, which of the following are the responsibilities of AWS? (Select two)
+
+A. Network operability
+
+B. Configuring IAM Roles
+
+C. Data center security
+
+D. Encrypting application data
+
+E. Installing security patches of the guest operating system (OS)
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A, C
+    </details>
+
+88.A production company would like to establish an AWS managed virtual private network (VPN) service between its on-premises network and AWS. Which item needs to be set up on the company's side?
+
+A. A VPC endpoint interface
+
+B. A customer gateway
+
+C. A security group
+
+D. A virtual private gateway (VGW)
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: B
+    </details>
+
+89.An engineering team is new to the AWS Cloud and it would like to launch a dev/test environment with low monthly pricing. Which AWS service can address this use case?
+
+A. Amazon Elastic Compute Cloud (Amazon EC2)
+
+B. Amazon Elastic Container Service (Amazon ECS)
+
+C. Amazon LightSail
+
+D. AWS CloudFormation
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: C
+    </details>
+
+90.A company using a hybrid cloud would like to store secondary backup copies of the on-premises data. Which Amazon S3 Storage Class would you use for a cost-optimal yet rapid access solution?
+
+A. Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)
+
+B. Amazon S3 Standard
+
+C. Amazon S3 Glacier Deep Archive
+
+D. Amazon S3 Standard-Infrequent Access (S3 Standard-IA)
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+    </details>
+
+91.Which security control tool can be used to deny traffic from a specific IP address?
+
+A. Network Access Control List (network ACL)
+
+B. VPC Flow Logs
+
+C. Amazon GuardDuty
+
+D. Security Group
+
+<details markdown=1><summary markdown='span'>Answer</summary>
+      Correct answer: A
+    </details>
 
 XX. A multi-national company has just moved its infrastructure from its on-premises data center to AWS Cloud. As part of the shared responsibility model, AWS is responsible for which of the following?
 - A. 
